@@ -1,0 +1,28 @@
+.box2 {
+    position: relative;
+    padding: 20px;
+    width: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.box2:hover ~ .box1 {
+    background-color: green;
+}
+
+.box1 {
+    padding: 20px;
+    width: 30px;
+    height: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+    border-width: 30px;
+    background-color: red;
+}
